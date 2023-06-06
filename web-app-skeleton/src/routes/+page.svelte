@@ -78,7 +78,7 @@
 			selected_text = '';
 
 			if (selected_letter_count === 'yes') {
-				wrong_words_finish = 'All correct ✅' + ' count: ' + 0;
+				wrong_words_finish = 'All correct ✅' + ' count: ' + input.length;
 				selected_text = '';
 			}
 			return;
